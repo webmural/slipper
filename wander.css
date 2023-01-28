@@ -1,0 +1,19 @@
+::selection {
+  background: indigo;
+  color: gold;
+}
+
+:root {
+  background: gold;
+  color: darkviolet;
+}
+
+:any-link {
+  color: inherit;
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    color: indigo;
+  }
+}
